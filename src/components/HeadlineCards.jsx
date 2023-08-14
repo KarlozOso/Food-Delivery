@@ -9,7 +9,7 @@ const HeadlineCards = () => {
         <div className='absolute w-full h-full bg-black/50 rounded-xl text-white '>
           <p className='font-bold text-2xl px-2 pt-4'>Sun's Out, BOGO's Out</p>
           <p className='px-2'>Through 8/26</p>
-          <button className='border-white bg-white text-black mx-5 absolute bottom-3 start-px'>Order Now</button>
+          <button className='border-white bg-white text-black mx-5 absolute bottom-3 start-px hover:bg-orange-600 hover:text-white '>Order Now</button>
         </div>
         <img
         className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
@@ -24,7 +24,7 @@ const HeadlineCards = () => {
         <div className='absolute w-full h-full bg-black/50 rounded-xl text-white '>
           <p className='font-bold text-2xl px-2 pt-4'>New Restaurants</p>
           <p className='px-2'>Added Daily </p>
-          <button className='border-white bg-white text-black mx-5 absolute bottom-3 start-px'>Order Now</button>
+          <button className='border-white bg-white text-black mx-5 absolute bottom-3 start-px hover:bg-orange-600 hover:text-white'>Order Now</button>
         </div>
         <img
         className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
@@ -39,7 +39,7 @@ const HeadlineCards = () => {
         <div className='absolute w-full h-full bg-black/50 rounded-xl text-white '>
           <p className='font-bold text-2xl px-2 pt-4'>We love pasta</p>
           <p className='px-2'>Get all the pasta you want</p>
-          <button className='border-white bg-white text-black mx-5 absolute bottom-3 start-px'>Order Now</button>
+          <button className='border-white bg-white text-black mx-5 absolute bottom-3 start-px hover:bg-orange-600 hover:text-white'>Order Now</button>
         </div>
         <img
         className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
