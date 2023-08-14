@@ -70,11 +70,11 @@ const Food = () => {
 
         {/* Filter Price */}
         <div>
-          <p className='font-bold text-gray-700'>Filter Price</p>
+          <p className='font-bold text-gray-700 '>Filter Price</p>
           <div className='flex justify-between max-w-[390px] w-full'>
             <button
               onClick={() => filterPrice('$')}
-              className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
+              className='m-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
             >
               $
             </button>
@@ -92,7 +92,7 @@ const Food = () => {
             </button>
             <button
               onClick={() => filterPrice('$$$$')}
-              className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
+              className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white p-2'
             >
               $$$$
             </button>
@@ -107,19 +107,19 @@ const Food = () => {
             key={index}
             className='border shadow-lg rounded-lg hover:scale-105 duration-300'
           >
-            <img
-              src={item.image}
-              alt={item.name}
-              className='w-full h-[200px] object-cover rounded-t-lg'
-            />
-            <div className='flex justify-between px-2 py-4'>
-              <p className='font-bold'>{item.name}</p>
-              <p>
-                <span className='bg-orange-500 text-white p-1 rounded-full'>
-                  {item.price}
-                </span>
-              </p>
-            </div>
+          <img
+          src={item.image}
+          alt={item.name}
+          className='w-full h-[200px] object-cover rounded-t-lg'
+        />
+        <div className='flex justify-between px-3 py-4'>
+          <p className='font-bold'>{item.name}</p>
+          <p>
+            <span className='bg-orange-500 text-white p-1 rounded-full'>
+              {item.price}
+            </span>
+          </p>
+        </div>
           </div>
         ))}
       </div>
